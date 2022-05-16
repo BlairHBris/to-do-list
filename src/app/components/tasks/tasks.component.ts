@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { subscribeOn } from 'rxjs';
+import { Component, Injectable, OnInit } from '@angular/core';
 import { TaskService } from '../../services/task.service'
 import { Task } from "../../Task";
 
